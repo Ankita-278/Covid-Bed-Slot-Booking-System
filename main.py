@@ -20,7 +20,7 @@ app.secret_key="Ankitakumari"
 with open('config.json','r') as c:
      params=json.load(c)["params"]
 
-#email_sender='anjutm01@gmail.com'
+#email_sender='ankita@gmail.com'
 #email_password='ivxdyfdoahjepils'
 
 app.config.update(
@@ -28,7 +28,7 @@ app.config.update(
     MAIL_PORT='465',
      MAIL_USE_SSL=True,
      MAIL_USERNAME='ankitakumari_is20.rvitm@rvei.edu.in',
-     MAIL_PASSWORD='Ankitakumari@12'
+     MAIL_PASSWORD='xyzxqweruyusdf'
  )
 mail = Mail(app)
 
